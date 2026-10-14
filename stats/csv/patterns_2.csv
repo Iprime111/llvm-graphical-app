@@ -1,0 +1,17 @@
+pattern,occurrences
+icmp <- add | br <- icmp,89528538
+add <- add | icmp <- add,80278816
+call <- add | call <- add,74414390
+br <- icmp | call <- add,70488448
+mul <- add | add <- mul,14986276
+add <- sub | add <- add,9067644
+select <- icmp | select <- select,7773020
+call <- sub | call <- add,7052916
+br <- icmp | add <- add,6533758
+icmp <- add | add <- add,5244456
+icmp <- sub | icmp <- add,4542334
+call <- add | call <- select,4125108
+br <- icmp | br <- icmp,111845
+icmp <- add | select <- icmp,77774
+mul <- add | add <- add,28196
+add <- select | icmp <- add,11816
