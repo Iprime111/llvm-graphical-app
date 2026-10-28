@@ -2,7 +2,7 @@
 
 [Project README](../README.md)
 
-The tracing pass records visits to LLVM basic blocks in `src/app.c`. The scripts
+The tracing pass records visits to LLVM basic blocks in `app/src/app.c`. The scripts
 combine that execution trace with metadata produced during compilation to expand
 instruction relationships or count frequent patterns. All commands below run
 from the project root.

@@ -1,3 +1,4 @@
 build
 .direnv
 .cache
+__pycache__/

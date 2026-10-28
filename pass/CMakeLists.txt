@@ -24,7 +24,7 @@ add_executable(graphical_app_traced ${APP_SOURCES} trace.c)
 set_target_properties(graphical_app_traced PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}"
 )
-set(APP_TRACED_SOURCE "${PROJECT_SOURCE_DIR}/src/app.c")
+set(APP_TRACED_SOURCE "${PROJECT_SOURCE_DIR}/app/src/app.c")
 set_property(SOURCE "${APP_TRACED_SOURCE}" APPEND PROPERTY COMPILE_OPTIONS
     "-fpass-plugin=$<TARGET_FILE:TracingPass>"
 )

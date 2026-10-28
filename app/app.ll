@@ -1,5 +1,5 @@
-; ModuleID = '/Users/ip111/Code/llvm-course/graphical-app/src/app.c'
-source_filename = "/Users/ip111/Code/llvm-course/graphical-app/src/app.c"
+; ModuleID = '/Users/ip111/Code/llvm-course/graphical-app/app/src/app.c'
+source_filename = "/Users/ip111/Code/llvm-course/graphical-app/app/src/app.c"
 target datalayout = "e-m:o-p270:32:32-p271:32:32-p272:64:64-i64:64-i128:128-n32:64-S128-Fn32"
 target triple = "arm64-apple-macosx14.0.0"
 
